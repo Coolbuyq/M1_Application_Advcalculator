@@ -8,35 +8,43 @@ Each vaccine centre will perform domestically to sign in and allot vaccines. The
 The nearby server have to save the statistics of round one hundred humans in which the allotted on-line registration statistics can be loaded onto the nearby server of that nearby centre. Verification of the statistics is executed primarily based totally at the information furnished with the aid of using the patient. Once completed, the statistics of the vaccinated can be despatched lower back for destiny use and reference.
 
 ## High level Requirements
-System ought to be capable of get right of entry to pre loaded registration records for verification 
-User ought to be capable of upload new registrations 
-System ought to understand vaccinated patients
-OTP generated verification for stable registration 
-System ought to understand invalid credentials
-System should be updated with the time interval betwee
+System ought to be capable of get right of entry to pre loaded registration records for verification.
+
+User ought to be capable of upload new registrations.
+System ought to understand vaccinated patients.
+
+OTP generated verification for stable registration.
+
+System ought to understand invalid credentials.
+
+System should be updated with the time interval between twoo doses.
 
 ## Low level Requirements
-Only new person need to accept an choice to pick vaccine type 
-Total amount of vaccines used need to be proven via way of means of EOD 
-Full listing of sufferers vaccinated need to be set as output 
-Remaining and present stock of vaccines must be be tracked 
-Vaccine vials need to be tracked for its use inside a day
+Only new person need to accept an choice to pick vaccine type.
+
+Total amount of vaccines used need to be proven via way of means of EOD.
+
+Full listing of sufferers vaccinated need to be set as output. 
+
+Remaining and present stock of vaccines must be be tracked.
+
+Vaccine vials need to be tracked for its use inside a day.
 
 ## SWOT
 ## 4W's & 1H
 
-### Who
- . Patient who needs to be vaccinated.
+ ### Who
+   Patient who needs to be vaccinated.
  
  ### What 
-  . Verify the info of the affected person the usage of the alloted data.
+   Verify the info of the affected person the usage of the alloted data.
   
-  ### When
-   .During the time alloted for vaccination.
+ ### When
+   During the time alloted for vaccination. 
    
-   ### Where
-    . local Vaccine centre
+ ### Where
+   Local vaccine centre
     
-   ### How
-    . Online registration and on field verification using local server.
+ ### How
+   Online registration and on field verification using local server.
 
