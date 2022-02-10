@@ -8,29 +8,30 @@ Each vaccine centre will perform domestically to sign in and allot vaccines. The
 The nearby server have to save the statistics of round one hundred humans in which the allotted on-line registration statistics can be loaded onto the nearby server of that nearby centre. Verification of the statistics is executed primarily based totally at the information furnished with the aid of using the patient. Once completed, the statistics of the vaccinated can be despatched lower back for destiny use and reference.
 
 ## High level Requirements
-System ought to be capable of get right of entry to pre loaded registration records for verification.
 
-User ought to be capable of upload new registrations.
-System ought to understand vaccinated patients.
+| ID | Description | Status (Implemented/Future) |
+| --- | --- | --- |
+| HR01 |System ought to be capable of get right of entry to pre loaded registration records for verification | Implemented |
+| HR02 | User ought to be capable of upload new registrations | Implemented |
+| HR03 |System ought to understand vaccinated patients  | Implemented |
+| HR04 |OTP generated verification for stable registration | Future |
+| HR05 |System ought to understand invalid credentials | Future |
+| HR06 |System should be updated with the time interval between twoo doses.  | Future |
 
-OTP generated verification for stable registration.
-
-System ought to understand invalid credentials.
-
-System should be updated with the time interval between twoo doses.
 
 ## Low level Requirements
-Only new person need to accept an choice to pick vaccine type.
 
-Total amount of vaccines used need to be proven via way of means of EOD.
-
-Full listing of sufferers vaccinated need to be set as output. 
-
-Remaining and present stock of vaccines must be be tracked.
-
-Vaccine vials need to be tracked for its use inside a day.
+| ID | Description | Status (Implemented/Future) |
+| --- | --- | --- |
+| LR01 |Only new person need to accept an choice to pick vaccine type  | Implemented |
+| LR02 |Total amount of vaccines used need to be proven via way of means of EOD  | Implemented |
+| LR03 |Full listing of sufferers vaccinated need to be set as output | Implemented |
+| LR04 |Remaining and present stock of vaccines must be be tracked  | Future |
+| LR05 |Vaccine vials need to be tracked for its use inside a day  | Future |
 
 ## SWOT
+![SWOT Analysis](https://user-images.githubusercontent.com/86889916/153326600-0d5e6615-3e66-4858-8b7a-74f777477b70.png)
+
 ## 4W's & 1H
 
  ### Who
@@ -47,4 +48,6 @@ Vaccine vials need to be tracked for its use inside a day.
     
  ### How
    Online registration and on field verification using local server.
+   
+   
 
