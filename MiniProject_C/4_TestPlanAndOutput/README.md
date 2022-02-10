@@ -5,4 +5,4 @@
 -capyure the actual result
 
 #Table
--ID,description of test case,Input values,Expected output,Actual output
+-ID,description of test case,Input values,Expected output,Actual output 
