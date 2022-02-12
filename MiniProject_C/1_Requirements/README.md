@@ -25,8 +25,9 @@ Our project is smart calculator that performs arithmetic operations on numbers. 
 
 
 ## SWOT
-![SWOT Analysis](https:![SWOT Analysis](https://user-images.githubusercontent.com/86889916/153701064-6f629f0d-0708-4b46-8246-0706cee967d7.png)
+![SWOT Analysis](![Screenshot (301)](https://user-images.githubusercontent.com/86889916/153701157-3a51fcc3-ca67-4a4f-b150-686bad45e0c6.png)
 )
+
 
 ## 4W's & 1H
 
