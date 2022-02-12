@@ -1,8 +1,13 @@
-#include "advcalculator.h"
 #include "unity.h"
+#include "advcalculator.h"
 
-void setUp(){}
-void tearDown(){}
+
+void setUp(){
+
+}
+void tearDown(){
+
+}
 
 
 void test_addition(void)
@@ -79,29 +84,27 @@ TEST_ASSERT_EQUAL_INT(64,p2(4,3));
 TEST_ASSERT_EQUAL_INT(27,p2(3,3));
 }
 
-void test_logarithmic(void)
+void test_trignometric(void)
 {
-TEST_ASSERT_EQUAL_INT(-0.958924,logarithmic(5));
-TEST_ASSERT_EQUAL_INT(0.283662,logarithmic(5));
+TEST_ASSERT_EQUAL_INT(-0.958924,trignometric(1,5));
+TEST_ASSERT_EQUAL_INT(0.283662,trignometric(2,5));
 }
-
-
-int main()
+int test_main()
 {
   UNITY_BEGIN();
 
-  RUN_TEST(addition);
-  RUN_TEST(subtraction);
-  RUN_TEST(multiplication);
-  RUN_TEST(division);
-  RUN_TEST(modulus);
-  RUN_TEST(logarithmic);
-  RUN_TEST(exponential);
-  RUN_TEST(squareroot);
-  RUN_TEST(p);
-  RUN_TEST(p1);
-  RUN_TEST(p2);
-  RUN_TEST(logarithmic);
+  RUN_TEST(test_addition);
+  RUN_TEST(test_subtraction);
+  RUN_TEST(test_multiplication);
+  RUN_TEST(test_division);
+  RUN_TEST(test_modulus);
+  RUN_TEST(test_logarithmic);
+  RUN_TEST(test_p);
+  RUN_TEST(test_p1);
+  RUN_TEST(test_p2);
+  RUN_TEST(test_exponential);
+  RUN_TEST(test_trignometric);
+  RUN_TEST(test_squareroot);
 
   return UNITY_END();
 }

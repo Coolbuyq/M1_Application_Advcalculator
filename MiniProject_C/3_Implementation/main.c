@@ -1,7 +1,8 @@
 #include "advcalculator.h"
-
+extern void test_main();
 int main()
 {
+
     printf("\t\tWelcome to the scientific calculator!!\n\n");
     int c;
     printf("\n####### Press 0 to quit the program ########\n");
@@ -139,6 +140,8 @@ int main()
             printf("\nInvalid operation!!!!\n");
         }
     }
-   
+
+test_main();
+
     return 0;
 }
