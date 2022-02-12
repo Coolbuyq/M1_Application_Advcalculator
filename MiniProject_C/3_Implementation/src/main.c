@@ -1,5 +1,15 @@
+/**
+ * @file main.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-12
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "advcalculator.h"
-extern void test_main();
+
 int main()
 {
 
@@ -140,8 +150,6 @@ int main()
             printf("\nInvalid operation!!!!\n");
         }
     }
-
-test_main();
 
     return 0;
 }
