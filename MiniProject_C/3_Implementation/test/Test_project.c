@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include "unity.h"
 #include "advcalculator.h"
+#include "unity.h"
 
 
 void setUp(){
@@ -99,8 +99,7 @@ void test_trignometric(void)
 TEST_ASSERT_EQUAL_INT(-0.958924,trignometric(1,5));
 TEST_ASSERT_EQUAL_INT(0.283662,trignometric(2,5));
 }
-int test_main()
-{
+int main (void){
   UNITY_BEGIN();
 
   RUN_TEST(test_addition);
