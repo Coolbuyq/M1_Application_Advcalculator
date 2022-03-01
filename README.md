@@ -2,6 +2,8 @@
 
 [![C/C++ CI](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/c-cpp.yml)
 
+[![Unit Testing -Unity](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/unity.yml)
+
 
 
 # codiga
