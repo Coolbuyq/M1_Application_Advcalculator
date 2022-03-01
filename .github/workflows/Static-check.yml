@@ -13,7 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      run: sudo apt-get install cppcheck
-    - name: Static Analysis
-      run: cppcheck --enable=all 3_Implementation
+    - name: Install cppcheck
+      run: sudo apt -y install cppcheck
+    - name: run cppcheck
+      run: cppcheck 3_Implementation
     
