@@ -38,7 +38,7 @@ run_test:Build_test
 
 staticcheck:
 	cppcheck --enable=all -iunity .
-dynamiccheck: Build
+dynamiccheck:Build
 	valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))
 coverage:
 	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
