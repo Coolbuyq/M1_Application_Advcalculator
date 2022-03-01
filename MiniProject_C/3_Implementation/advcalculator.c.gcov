@@ -1,0 +1,108 @@
+        -:    0:Source:src/advcalculator.c
+        -:    0:Graph:advcalculator.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:#include "advcalculator.h"
+        -:    2:
+    #####:    3:int addition(int a,int b)
+    #####:    4:{int c=a+b;
+    #####:    5:return c;
+    %%%%%:    5-block  0
+        -:    6:  
+        -:    7:}
+    #####:    8:int subtraction(int a,int b)
+    #####:    9:{int c=a-b;
+    #####:   10:return c;
+    %%%%%:   10-block  0
+        -:   11:   
+        -:   12:}
+    #####:   13:float multiplication(int a,int b)
+        -:   14:{
+    #####:   15:   int c=a*b;
+    #####:   16:   return c;
+    %%%%%:   16-block  0
+        -:   17:}
+    #####:   18:float division(int a,int b)
+        -:   19:{
+    #####:   20:   return (float)a / (float)b;
+    %%%%%:   20-block  0
+        -:   21:}
+    #####:   22:int modulus(int a,int b)
+        -:   23:{
+    #####:   24: int c=a%b;
+    #####:   25: return c;
+    %%%%%:   25-block  0
+        -:   26:}
+    #####:   27:	float logarithmic(float a){
+        -:   28:	
+    #####:   29:	   return log(a);
+    %%%%%:   29-block  0
+        -:   30:       
+        -:   31:
+        -:   32:}
+    #####:   33:int p(int x, int n)
+        -:   34:{
+    #####:   35:    if(n == 0) return 1;
+    %%%%%:   35-block  0
+    %%%%%:   35-block  1
+    #####:   36:    int temp = p(x, n / 2) * p(x, n / 2);
+    %%%%%:   36-block  0
+    #####:   37:    return (n % 2 != 0) ? (temp * x) : (temp);
+    %%%%%:   37-block  0
+    %%%%%:   37-block  1
+    %%%%%:   37-block  2
+        -:   38:}
+        -:   39:
+    #####:   40:int p1(int x, int n)
+        -:   41:{
+    #####:   42:    if(n == 0) return 1;
+    %%%%%:   42-block  0
+    %%%%%:   42-block  1
+    #####:   43:    int temp = p(x, n / 2) * p(x, n / 2);
+    %%%%%:   43-block  0
+    #####:   44:    return (n % 2 != 0) ? (temp * x) : (temp);
+    %%%%%:   44-block  0
+    %%%%%:   44-block  1
+    %%%%%:   44-block  2
+        -:   45:}
+    #####:   46:int p2(int x, int n)
+        -:   47:{
+    #####:   48:    if(n == 0) return 1;
+    %%%%%:   48-block  0
+    %%%%%:   48-block  1
+    #####:   49:    int temp = p(x, n / 2) * p(x, n / 2);
+    %%%%%:   49-block  0
+    #####:   50:    return (n % 2 != 0) ? (temp * x) : (temp);
+    %%%%%:   50-block  0
+    %%%%%:   50-block  1
+    %%%%%:   50-block  2
+        -:   51:}
+        -:   52:
+    #####:   53: float trignometric(int op,float val){
+        -:   54:
+    #####:   55:	if(op == 1){
+    %%%%%:   55-block  0
+    #####:   56:		return sin(val);
+    %%%%%:   56-block  0
+        -:   57:	}
+    #####:   58:	else if(op == 2){
+    %%%%%:   58-block  0
+    #####:   59:		return cos(val);
+    %%%%%:   59-block  0
+        -:   60:	}
+        -:   61:	
+    #####:   62:}
+    %%%%%:   62-block  0
+    #####:   63:float exponential(float a,float b){
+        -:   64:	
+    #####:   65:	return pow(a, b);
+    %%%%%:   65-block  0
+        -:   66:}
+    #####:   67:float squareroot(float b)
+        -:   68:{
+        -:   69:    
+    #####:   70:    float s = sqrt(b);
+    #####:   71:    return s;
+    %%%%%:   71-block  0
+        -:   72:    
+        -:   73:}
