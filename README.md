@@ -1,5 +1,8 @@
 # M1_Application_app
 
+[![C/C++ CI](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Coolbuyq/M1_Application_Advcalculator/actions/workflows/c-cpp.yml)
+
+
 
 # codiga
 # ![Code quality Score](https://api.codiga.io/project/31220/score/svg)
