@@ -5,7 +5,7 @@ PROJ_NAME= advcalculator
 SRC=src/main.c\
 src/advcalculator.c\
 
-TEST_SRC=test/Test_project.c\
+TEST_SRC=src/Test_project.c\
 unity/unity.c\
 src/advcalculator.c\
 #To check if the OS is windows or linux and set the executable file extension and delete command accordingly
@@ -21,16 +21,16 @@ else
    endif
 endif
 
-INC=-Iinc\
+INC=-Iinclude\
 -Iunity\
 
-Build :
+Build:
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-run :Build
+run:Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-Build_test :
+Build_test:
 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 run_test:Build_test
