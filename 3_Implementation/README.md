@@ -11,7 +11,7 @@ This folder conatins all the coding files as well as the resources and testing f
 
 4.Run "make run" command in terminal for main code execution.
 
-5.Run "make run_test" for unity testing.
+5.Run "make run_test" for test code execution.
 
 
 | Folder | Description |
