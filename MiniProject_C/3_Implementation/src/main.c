@@ -95,7 +95,7 @@ int main()
 	printf("[2] Cosine\n");
 	printf("Op: ");
 	scanf("%d",&op);
-	printf("Enter value: ");
+	printf("Enter valuue: ");
 	scanf(" %f",&val);
         	float result7= trignometric(op,val);
         	printf(" Result is %f",result7);
