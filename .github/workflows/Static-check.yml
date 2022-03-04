@@ -7,14 +7,18 @@ on:
     branches: [ master ]
 
 jobs:
+  # This workflow contains a single job called "build"
   build:
-
+    name: cppcheck 
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v2
-    - name: Install cppcheck
-      run: sudo apt -y install cppcheck
-    - name: run cppcheck
-      run: cppcheck 3_Implementation
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Install cppcheck
+        run: sudo apt-get -y install cppcheck
+      - name: Cppcheck code
+        run: cppcheck 3_Implementation/
     
